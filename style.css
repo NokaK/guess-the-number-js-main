@@ -1,0 +1,50 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.numberInput {
+    min-width: 45vw;
+    min-height: 6vh;
+    border-radius: 8px 8px 8px 8px;
+    outline: none;
+    border: 2px solid gray;
+    margin-bottom: 15px;
+}
+
+::placeholder {
+    opacity: 0.5;
+}
+
+.numbers-cont {
+    margin-bottom: 15px;
+    font-size: 2rem;
+    color: gray;
+    font-weight: bold;
+    display: flex;
+    max-width: 47%;
+}
+
+.numbers-cont li {
+    margin-left: 10px;
+}
+
+.numbers-cont li::after {
+    content: ";";
+}
+
+button {
+    background-color: darkblue !important;
+    min-width: 100px;
+    min-height: 30px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
